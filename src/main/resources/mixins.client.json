@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "verbose": true,
+  "package": "com.example.mixins",
+  "refmap": "mixins.client.refmap.json",
+  "mixins": [
+    "client.MixinMinecraft",
+    "client.gui.MixinGuiInGame",
+    "client.settings.MixinGameSettings"
+  ]
+}
